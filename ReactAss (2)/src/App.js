@@ -64,9 +64,9 @@ class App extends React.Component {
     this.state.boxval=val;
   }  
   Edit(indexv){
-  	  alert("indexv in edit:"+indexv);
+  	  //alert("indexv in edit:"+indexv);
   	  var width=document.getElementById("width").value;
-  	  alert("width in alert"+width);
+  	  //alert("width in alert"+width);
        var height=document.getElementById("height").value;
        var color=document.getElementById("color").value;
       document.getElementById(indexv).style.height=height+"px";
@@ -78,9 +78,9 @@ class App extends React.Component {
      this.state.indexVal=index;
      let divid=Number(index);
      divid+=100;
-     alert("divid:"+divid);
+     //alert("divid:"+divid);
      this.state.divIder=divid;
-     alert(this.state.indexVal);
+     //alert(this.state.indexVal);
   }
   EditDisable(){
   	this.setState({editVal:false});
